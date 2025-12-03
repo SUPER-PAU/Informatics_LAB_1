@@ -7,15 +7,15 @@
 - Сгенерировал и установил ssh ключ, используя команду в терминале `ssh-keygen`
 - Добавил SHH ключ в свой гитхаб
 - Склонировал репозиторий
- ![[Pasted image 20250905112513.png || 500]]
+ ![[Images1/Pasted image 20250905112513.png || 500]]
  
 ## Работа с файлом
  - создал файл `script.bash` с помощью команды `touch`
  - установил `gedit` открыл его с помощью файл `gedit script.bash`
  - чтобы вписал в него команду `echo "Welcome to ITMO University"`
-   ![[Pasted image 20250905113550.png]]
+   ![[Images1/Pasted image 20250905113550.png]]
  - выполнил команду `bash script.bash`
- ![[Pasted image 20250905113707.png]]
+ ![[Images1/Pasted image 20250905113707.png]]
 ## Задача
 Необходимо модифицировать скрипт так, чтобы при 
 `bash script.bash Vasya Pupkin`
@@ -24,9 +24,9 @@
 
 Это можно сделать с помощью значка `$*` , который позволяет считывать информацию прямо из терминала
 
-![[Pasted image 20251203171034.png]]
+![[Images1/Pasted image 20251203171034.png]]
 
 Проверим:
-![[Pasted image 20251203171141.png]]
+![[Images1/Pasted image 20251203171141.png]]
 
 
